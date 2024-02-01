@@ -9,7 +9,7 @@ import {
 } from "langchain/prompts";
 import { HumanMessage, SystemMessage} from "langchain/schema";
 
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const OPENAI_API_KEY = process.env.API_URL;
 
 export const config = {
     api: {
