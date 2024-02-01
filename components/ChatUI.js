@@ -9,11 +9,11 @@ export default function ChatUI() {
     const [messages, setMessages] = useState([
         {
             role: "human",
-            message: "hello",
+            message: "",
         },
         {
             role: "ai",
-            message: " :) how may I help you",
+            message: "how may I help you",
         },
     ]);
 
